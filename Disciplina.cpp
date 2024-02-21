@@ -28,6 +28,7 @@ Disciplina::~Disciplina() {
 
   pAlunoPrim = NULL;
   pAlunoAtual = NULL;
+  
 }
 
 void Disciplina::setNome(const char *n) { strcpy(this->nome, nome); }
